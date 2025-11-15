@@ -35,7 +35,7 @@ export default function BioLinkPage() {
             <div className="text-center mb-8">
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <div className="w-full h-full rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center border-4 border-white/20">
-                  <Image
+                  <img
                     src="/verified (2).png"
                     alt="الصورة الشخصية"
                     width={120}
