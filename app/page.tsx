@@ -1,11 +1,24 @@
-import { Button } from "@/components/ui/button"
+"use client"
+import { FullPageLoader } from "@/components/loader"
 import { Card } from "@/components/ui/card"
 import { Instagram, Twitter, Linkedin, Youtube, Mail, Globe, Shield, Lock, FileText } from 'lucide-react'
 import Image from "next/image"
 import Link from "next/link"
+import { useEffect, useState } from "react"
 
 export default function BioLinkPage() {
-  const linkapp='https://yourwebsite.com'
+const [linkapp,setLinkapp]=useState('')
+const [load,setLoad]=useState(true)
+const initLink=async()=>{
+  const lin='https://zasfv.com?label=e24f560b6f0311062f37dae96d359520'
+  setLinkapp(lin)
+}
+useEffect(()=>{
+  initLink().then(()=>{
+  setLoad(false)
+  })
+},[])
+
   const socialLinks = [
     { name: "دفع الفواتير", icon: Globe, url: linkapp, color: "hover:bg-primary/20" },
     { name: "شحن باقات رصيد", icon: Globe, url: linkapp, color: "hover:bg-primary/20" },
@@ -14,6 +27,7 @@ export default function BioLinkPage() {
   ]
 
   return (
+    load?<FullPageLoader/>:
     <div className="min-h-screen bg-gradient-to-br from-[#d9267d] via-[#a82c78] to-[#7a3374] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-2xl mx-auto">
         {/* Header Section */}
