@@ -101,7 +101,7 @@ export default function TermsPage() {
                   للأسئلة حول شروط الخدمة هذه، اتصل بنا على:
                 </p>
                 <p className="mt-2">
-                  البريد الإلكتروني: legal@zajsx.com<br />
+                  البريد الإلكتروني: legal@myzajsx.com<br />
                   العنوان: الكويت 
                 </p>
               </section>

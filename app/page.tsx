@@ -146,7 +146,7 @@ export default function BioLinkPage() {
                     <h3 className="font-semibold text-white mb-2">حقوق حماية البيانات</h3>
                     <p className="text-white/80">
                       لديك الحق في الوصول إلى بياناتك الشخصية أو تصحيحها أو حذفها. اتصل بنا على
-                      privacy@zajsx.com لممارسة حقوقك.
+                      privacy@myzajsx.com لممارسة حقوقك.
                     </p>
                   </div>
                 </div>
@@ -170,7 +170,7 @@ export default function BioLinkPage() {
               </div>
 
               <p className="text-sm text-white/60">
-                © {new Date().getFullYear()} zajsx. جميع الحقوق محفوظة.
+                © {new Date().getFullYear()} myzajsx. جميع الحقوق محفوظة.
               </p>
 
               <p className="text-xs text-white/50">

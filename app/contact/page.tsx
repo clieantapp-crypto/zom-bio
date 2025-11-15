@@ -30,7 +30,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white mb-1">البريد الإلكتروني</h3>
-                    <p className="text-white/80">contact@zajsx.com</p>
+                    <p className="text-white/80">contact@myzajsx.com</p>
                     <p className="text-sm text-white/60 mt-1">عادة نرد خلال 24 ساعة</p>
                   </div>
                 </div>
@@ -65,10 +65,10 @@ export default function ContactPage() {
               <div className="border-t border-white/20 pt-6 mt-8">
                 <h2 className="text-xl font-semibold text-white mb-3">للاستفسارات المحددة</h2>
                 <ul className="space-y-2 text-white/80">
-                  <li><strong className="text-white">مخاوف الخصوصية:</strong> privacy@zajsx.com</li>
-                  <li><strong className="text-white">المسائل القانونية:</strong> legal@zajsx.com</li>
-                  <li><strong className="text-white">استفسارات الأعمال:</strong> business@zajsx.com</li>
-                  <li><strong className="text-white">الدعم الفني:</strong> support@zajsx.com</li>
+                  <li><strong className="text-white">مخاوف الخصوصية:</strong> privacy@myzajsx.com</li>
+                  <li><strong className="text-white">المسائل القانونية:</strong> legal@myzajsx.com</li>
+                  <li><strong className="text-white">استفسارات الأعمال:</strong> business@myzajsx.com</li>
+                  <li><strong className="text-white">الدعم الفني:</strong> support@myzajsx.com</li>
                 </ul>
               </div>
             </div>

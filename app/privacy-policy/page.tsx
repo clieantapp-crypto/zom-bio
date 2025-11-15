@@ -123,7 +123,7 @@ export default function PrivacyPolicyPage() {
                   إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:
                 </p>
                 <p className="mt-2">
-                  البريد الإلكتروني: privacy@zajsx.com<br />
+                  البريد الإلكتروني: privacy@myzajsx.com<br />
                   العنوان: عنوان عملك
                 </p>
               </section>
