@@ -102,7 +102,7 @@ export default function TermsPage() {
                 </p>
                 <p className="mt-2">
                   البريد الإلكتروني: legal@zajsx.com<br />
-                  العنوان: عنوان عملك
+                  العنوان: الكويت 
                 </p>
               </section>
             </div>

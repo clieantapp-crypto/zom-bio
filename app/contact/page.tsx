@@ -41,7 +41,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white mb-1">الهاتف</h3>
-                    <p className="text-white/80" dir="ltr">+1 (555) 123-4567</p>
+                    <p className="text-white/80" dir="ltr">+965 (555) 121-11</p>
                     <p className="text-sm text-white/60 mt-1">الإثنين - الجمعة، 9 صباحًا - 5 مساءً</p>
                   </div>
                 </div>
@@ -53,10 +53,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-white mb-1">العنوان</h3>
                     <p className="text-white/80">
-                      شارع الأعمال 123<br />
+                      شارع الأعمال 2<br />
                       جناح 100<br />
-                      المدينة، الولاية 12345<br />
-                      الدولة
+                      الكويت<br />
+
                     </p>
                   </div>
                 </div>
